@@ -1,0 +1,76 @@
+.wrapper-task {
+  padding: 28px 24px 37px 24px;
+  &__function {
+    @include flex-center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    &__add {
+      @include flex-center;
+      gap: 15px;
+      button {
+        @include flex-center;
+        gap: 5px;
+        background-color: $btn-color;
+        border: none;
+        cursor: pointer;
+        padding: 11px 40px;
+        border-radius: 10px;
+        color: $text-color;
+      }
+    }
+
+    &__filter {
+      @include flex-center;
+      gap: 24px;
+      &__select {
+        @include flex-center;
+        gap: 4px;
+        padding: 11px;
+        border: 1px solid #273140;
+        border-radius: 10px;
+        select {
+          border: none;
+          outline: none;
+          background-color: $bg-main-color;
+          color: $text-color;
+          padding-right: 32px;
+        }
+      }
+
+      &__search {
+        @include flex-center;
+        gap: 4px;
+        padding: 11px;
+        border: 1px solid #273140;
+        border-radius: 10px;
+        input {
+          width: 203px;
+          border: none;
+          outline: none;
+          background-color: $bg-main-color;
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  &__infor {
+    @include flex-center;
+    justify-content: flex-start;
+    gap: 13px;
+    margin-bottom: 14px;
+    hr {
+      height: 12px;
+    }
+
+    &__message {
+      @include flex-center;
+      gap: 5px;
+    }
+
+    &__call {
+      @include flex-center;
+      gap: 5px;
+    }
+  }
+}

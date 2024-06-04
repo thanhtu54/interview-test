@@ -1,0 +1,23 @@
+.wrapper-menu {
+  padding-left: 15px;
+  border-bottom: 1px solid $border-color;
+  ul {
+    @include flex-center;
+    justify-content: flex-start;
+    li {
+      cursor: pointer;
+      a {
+        height: 48px;
+        @include flex-center;
+        gap: 2px;
+        padding: 0 25px;
+        text-decoration: none;
+      }
+
+      .active {
+        background-color: $bg-active-color;
+        border-bottom: 4px solid $btn-color;
+      }
+    }
+  }
+}

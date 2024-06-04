@@ -1,1 +1,3 @@
-# interview-test
+### `yarn`
+
+### `yarn start`

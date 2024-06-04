@@ -1,0 +1,26 @@
+.wrapper-navbar {
+  width: 48px;
+  height: 100%;
+  background-color: $bg-header-color;
+  padding-top: 26px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+  border-right: 1px solid $border-color;
+  &__icons {
+    width: 100%;
+    li {
+      width: 100%;
+      a {
+        height: 48px;
+        @include flex-center;
+      }
+
+      .active {
+        border-right: 2px solid $btn-color;
+        background-color: #dd531333;
+      }
+    }
+  }
+}
