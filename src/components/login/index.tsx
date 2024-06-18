@@ -15,28 +15,8 @@ const Login = () => {
 
   const userList: InputValues[] = [
     {
-      email: "valid@example.com",
-      password: "ValidPassword123@",
-    },
-    {
-      email: "another@test.com",
-      password: "AnotherPassword456@",
-    },
-    {
-      email: "good@email.net",
-      password: "GoodPassword123!",
-    },
-    {
-      email: "test@example.org",
-      password: "InvalidPassword$#",
-    },
-    {
-      email: "valid@example.com",
-      password: "ValidPassword123@",
-    },
-    {
-      email: "ahhaa",
-      password: "haha",
+      email: "main",
+      password: "main",
     },
   ];
 
