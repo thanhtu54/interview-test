@@ -18,6 +18,10 @@ const Login = () => {
       email: "main",
       password: "main",
     },
+    {
+      email: "main1",
+      password: "main1",
+    },
   ];
 
   const schema = yup
