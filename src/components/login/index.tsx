@@ -23,8 +23,8 @@ const Login = () => {
       password: "main1",
     },
     {
-      email: "main2",
-      password: "main2",
+      email: "main3",
+      password: "main3",
     },
   ];
 
