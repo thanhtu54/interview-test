@@ -35,8 +35,12 @@ const Login = () => {
       password: "ValidPassword123@",
     },
     {
-      email: "test",
-      password: "test",
+      email: "ahhaa",
+      password: "haha",
+    },
+    {
+      email: "valid@example.com",
+      password: "ValidPassword123@",
     },
   ];
 
